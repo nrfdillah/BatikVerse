@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    background-color: #FFFFFF;
+    background-color: #B35B80;
 }
 
 .Header {
@@ -64,8 +64,10 @@ ul {
 
 .background_batik svg {
     position: absolute; 
-    bottom: -95px;
-    
+    bottom: -100px;
+    left: 0; /* Tambahkan ini */
+    right: 0; /* Tambahkan ini */
+    margin: 0 auto; /* Tambahkan ini */
 }
 
 .image-overlay {
@@ -91,7 +93,6 @@ ul {
     margin-bottom: 30px;
 }
 
-
 .cta-button {
     background: #B35B80;
     color: #fff;
@@ -104,13 +105,20 @@ ul {
 }
 
 .About-Batik {
-    margin-top: 100px;
+    margin-top: 100px; /* Ubah dari 100px menjadi 0 */
+    padding: 0; /* Tambahkan padding 0 */
+    background-color: #FFFFFF;
+    bottom: 10px; /* Ubah dari 100px menjadi 0 */
 }
 
 .About-Batik h2{
     font-size: 40px;
     color: #B35B80;
     text-align: center;
+}
+
+.About-Batik svg {
+    margin-top: 20px;
 }
 
 .about-img {
@@ -147,4 +155,34 @@ ul {
 
 .content p {
     text-align: justify;
+}
+
+.container {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px;
+}
+
+.container li {
+    height:300px;
+    list-style: none;
+    border-radius: 8px;
+    padding: 15px 20px 20px;
+    background: #FFFFFF;
+}
+
+.batik-batik{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.batik-batik p{
+    display: block;
+}
+
+.batik-image {
+    height: 100px;
+    width: 90px;
 }
