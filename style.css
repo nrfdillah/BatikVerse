@@ -1,5 +1,5 @@
 body {
-    margin: 0 auto;
+    margin: 0;
     background-color: #B35B80;
 }
 
@@ -53,6 +53,9 @@ ul {
 
 .background_batik {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -65,7 +68,7 @@ ul {
 
 .background_batik svg {
     position: absolute; 
-    bottom: -100px;
+    bottom: -101px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -106,14 +109,15 @@ ul {
 }
 
 .About-Batik {
-    margin-top: 100px;
     padding: 0;
+    padding-top: 100px;
     background-color: #FFFFFF;
-    bottom: 10px;
+    /* bottom: 10px; */
 }
 
 .About-Batik h1{
     font-size: 35px;
+    margin: 30px;
     color: #B35B80;
     text-align: center;
 }
@@ -137,6 +141,17 @@ ul {
 
 }
 
+.batik-insight h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.batik-insight svg {
+    margin: 0;
+    bottom: -101px;
+}
+
 .content {
     padding-right: 150px;
 }
@@ -152,11 +167,6 @@ ul {
 
 .content p {
     text-align: justify;
-}
-
-.batik-insight h2 {
-    text-align: center;
-    color: #FFFFFF;
 }
 
 .container {
@@ -203,11 +213,6 @@ ul {
     margin: 10px;
     text-align: center;
 }
-
-.batik-insight h2 {
-    font-size: 35px;
-}
-
 
 .container-membatik {
     background-color: #FFFFFF;
@@ -268,14 +273,18 @@ ul {
 
 .wave-container {
     position: relative;
-    text-align: center;
+    height: 250px;
 }
 
-  
+.wave-container svg {
+    position: absolute;
+    bottom:-1px ;
+}
+
 .icon-container p {
     position: absolute;
     color: #FFFFFF;
-    top: 230px;
+    top: 150px;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -284,7 +293,7 @@ ul {
 
 .icon {
     position: absolute;
-    top: 270px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
