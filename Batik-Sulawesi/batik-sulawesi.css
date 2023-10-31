@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: #B35B80;
+}
+
+.header {
+    background-color: #FFFFFF;
+    width : full;
+    display: flex;
+}
+
+.Logo_web {
+    height: auto;
+    margin-left: 50px;
+}
+
+img {
+    max-height: 70px;
+}
+
+.bar_menu {
+    align-items: center;
+    display: flex;
+    margin-left : 180px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    color: #B35B80;
+}
+
+.search_container {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+#search {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 200px;
+    background-color: #B35B80;
+    color: #FFFFFF;
+    outline: none;
+}
+
+#search::placeholder {
+    color: white;
+}
+
+.pengantar {
+    padding: 20px 80px 0px 80px;
+}
+
+.pengantar h1{
+    text-align : center;
+    color: #FFFFFF;
+}
+
+.pengantar h2{
+    color: #FFFFFF;
+}
+
+.pengantar img {
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
+    width: 400px;
+}
+
+.pengantar p {
+    font-size: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.container {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px;
+}
+
+.container li {
+    height:400px;
+    list-style: none;
+    border-radius: 8px;
+    padding: 15px 20px 20px;
+    background: #FFFFFF;
+}
+
+.jenis-sulawesi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.batik-detail {
+    display: block;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+.batik-image img {
+    max-height: 200px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.batik-image h3 {
+    text-align: center;
+}
