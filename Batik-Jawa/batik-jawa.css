@@ -60,10 +60,6 @@ ul {
     color: #FFFFFF;
 }
 
-.pengantar h2{
-    color: #FFFFFF;
-}
-
 .pengantar img {
     display: block;
     margin: 0 auto;
@@ -92,7 +88,7 @@ ul {
     background: #FFFFFF;
 }
 
-.jenis-sulawesi {
+.jenis-jawa {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -101,7 +97,7 @@ ul {
 .batik-detail {
     display: block;
     text-align: justify;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px;
 }
 
 .batik-image img {
@@ -113,4 +109,8 @@ ul {
 
 .batik-image h3 {
     text-align: center;
+}
+
+.batik-detail p {
+    margin:0;
 }
