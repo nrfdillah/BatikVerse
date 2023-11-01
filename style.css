@@ -5,8 +5,12 @@ body {
 
 .Header {
     background-color: #FFFFFF;
-    width : full;
+    width : 100%;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0 ;
+    z-index: 100;
 }
 
 .Logo_web {
@@ -34,7 +38,7 @@ ul {
 .search_container {
     text-align: center;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 #search {

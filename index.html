@@ -24,8 +24,10 @@
             </ul>
         </div>
         <div class="search_container">
-            <input type="text" id="search" placeholder="Search...">
+            <input type="text" id="search" placeholder="Search..." oninput="searchBatik()">
         </div>
+        <div id="search-notif" style="display: none;">No results found.</div>
+
     </div>
     <div class="background_batik">
         <div class="image-container">
@@ -34,7 +36,7 @@
                 <main class="content">
                     <h1>Batik Verse</h1>
                     <p>Eco-Friendly Fabric | Natural Dyeing Techniques | Traditional Textile Art</p>
-                    <a href="#product" class="cta cta-button">History of Batik</a>
+                    <a href="#About-Batik" class="cta cta-button">History of Batik</a>
                 </main>
             </div>
         </div>
@@ -45,7 +47,7 @@
             </svg>
         </div>
     </div>
-    <div class="About-Batik">
+    <div class="About-Batik" id="About-Batik">
         <h1>History of Batik</h1>
         <div class="row">
             <div class="about-img">
