@@ -11,33 +11,39 @@
 </head>
 
 <body>
-    <div class="Header">
+    <div class="Header" id="landing-page">
         <div class="Logo_web">
             <img src=".\logobatik.png">
         </div>
         <div class="bar_menu">
             <ul>
-                <li>Home</li>
-                <li>Batik Insight</li>
-                <li>Batik Techniques</li>
-                <li>Contact Us</li>
+                <li>
+                    <a href="#landing-page">Home</a>
+                </li>
+                <li>
+                    <a href="#batik-insight">Batik Insight</a>
+                </li>
+                <li>
+                    <a href="#batik-teknik">Batik Techniques</a>
+                </li>
+                <li>
+                    <a href="#footer">Contact Us</a>
+                </li>
             </ul>
         </div>
         <div class="search_container">
-            <input type="text" id="search" placeholder="Search..." oninput="searchBatik()">
+            <input type="text" id="search" placeholder="Search...">
         </div>
-        <div id="search-notif" style="display: none;">No results found.</div>
-
     </div>
     <div class="background_batik">
         <div class="image-container">
             <img src=".\gambar_batikkk.jpeg">
             <div class="image-overlay">
-                <main class="content">
+                <div class="content">
                     <h1>Batik Verse</h1>
                     <p>Eco-Friendly Fabric | Natural Dyeing Techniques | Traditional Textile Art</p>
                     <a href="#About-Batik" class="cta cta-button">History of Batik</a>
-                </main>
+                </div>
             </div>
         </div>
         <div class="wave-container1" style="position: relative;">
@@ -67,7 +73,7 @@
             </svg>
         </div>
     </div>
-    <div class="batik-insight">
+    <div class="batik-insight" id="batik-insight">
         <h2>Batik Insight</h2>
         <div class="container">
             <li class="batik-batik">
@@ -138,26 +144,28 @@
             </svg>
         </div>
     </div>
-    <div class="container-membatik">
+    <div class="container-membatik" id="batik-teknik">
         <h2>Batik Technique</h2>
         <div class="teknik-membatik">
             <li class="teknik">
                 <div class="teknik-image">
-                    <img src=".\teknik-nyungging.jpg">
+                    <img src=".\batik-tulis.jpg">
                     <div class="teknik-details">
-                        <h3>Teknik Nyungging</h3>
-                        <p>Nyungging adalah kegiatan menggambar motif atau pola batik di secarik kertas, karena tidak semua orang bisa menggambar motif batik, sehingga dibutuhkan keterampilan khusus seseorang dalam melakukannya.</p>
+                        <h3>Batik Tulis/Cating</h3>
+                        <p>Teknik pembuatan batik tulis atau canting adalah metode paling tua dan tradisional. Proses pembuatan batik masih menggunakan alat canting tradisional yang diisi dengan lilin panas sebelum digunakan untuk menggambar pola di atas kain.</p>
                     </div>
                 </div>
                 <div class="teknik-image">
-                    <img src=".\teknik-njaplak.jpg">
+                    <img src=".\batik-cap.jpg">
                     <div class="teknik-details">
-                        <h3>Teknik Njaplak</h3>
-                        <p>Njaplak atau jiplak adalah kegiatan memindahkan gambar atau pola tersebut ke kain. Nglowong adalah proses menempelkan lilin malam di kain dengan media canting; pada proses ini motif batik akan mulai terlihat.</p>
+                        <h3>Batik Cap</h3>
+                        <p>Teknik pembuatan batik cap muncul sekitar abad ke-20. Metode ini tidak menggunakan canting, melainkan cap yang terbuat dari tembaga berukuran 20 x 20 cm. Bagian tengah cap memiliki motif ukiran batik. Stempel akan dicelupkan ke dalam cairan malam lalu ditekan di atas kain.</p>
                     </div>
                 </div>
             </li>
-            <a href="#product" class="cta cta-button center-button">Show More</a>
+            <div class="show-more-button">
+                <a href="Batik-Teknik/teknik.html" class="cta cta-button">Show More</a>
+            </div>
         </div>
         <div class="wave-container" style="position: relative;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -165,7 +173,7 @@
                     d="M0,160L40,176C80,192,160,224,240,208C320,192,400,128,480,122.7C560,117,640,171,720,176C800,181,880,139,960,138.7C1040,139,1120,181,1200,202.7C1280,224,1360,224,1400,224L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
                 </path>
             </svg>
-            <div class="icon-container">
+            <div class="icon-container" id="footer">
                 <p>Kunjungi kami</p>
                 <div class="icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">

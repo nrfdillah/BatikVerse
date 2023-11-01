@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #B35B80;
+    font-size: 16px;
 }
 
 .Header {
@@ -35,10 +36,19 @@ ul {
     color: #B35B80;
 }
 
+ul li a {
+    color: #B35B80;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #000000;
+}
+
 .search_container {
     text-align: center;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 #search {
@@ -60,7 +70,6 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .background_batik img {
@@ -268,11 +277,8 @@ ul {
     text-align: justify; 
 }
 
-.center-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 650px;
+.teknik li{
+    text-align: center;
 }
 
 .wave-container {
@@ -308,5 +314,5 @@ ul {
 .icon svg {
     width: 25px;
     height: 100%;
-    color: #FFFFFF;
+    color: #000000;
 }
