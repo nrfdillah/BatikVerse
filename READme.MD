@@ -13,11 +13,13 @@ Batik Verse adalah sebuah website yang dapat menampilkan jenis-jenis batik dari 
 
 ## Pengembangan
 
-Aplikasi ini dibangun menggunakan HTML, dan CSS.
+- Aplikasi ini dibangun menggunakan HTML untuk membuat struktur program untuk kodenya.
+- Kemudian menggunakan CSS untuk memperindah tampilannya dan mengatur struksturnya.
+- Lalu javascript digunakan untuk mempersingkat kode pada bagian teknik membatik.
 
 ## penggunaan aplikasi
 
-1. Tampilan utama dari website ini adalah poin-poin seperti home, batik insight, batik technique. Selain itu juga akan ada button yang mengarahkan langsung ke sejarah batik dan bisa juga di scroll.
+1. Tampilan utama dari website ini adalah poin-poin seperti home, batik insight, dan batik technique. Selain itu juga akan ada button yang mengarahkan langsung ke sejarah batik dan bisa juga di scroll.
 
 2. Jika ingin langsung beralih ke halaman batik insight, bisa menekan navbar menu di bagian batik insight lalu akan beralih ke bagian batik insight yang terdiri dari beberapa daerah.
 
