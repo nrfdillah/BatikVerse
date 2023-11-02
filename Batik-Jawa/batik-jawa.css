@@ -21,7 +21,7 @@ img {
 .bar_menu {
     align-items: center;
     display: flex;
-    margin-left : 180px;
+    margin-left : 300px;
 }
 
 ul {
@@ -38,26 +38,6 @@ ul li a {
 
 ul li a:hover {
     color: #000000;
-}
-
-.search_container {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 200px;
-}
-
-#search {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    width: 200px;
-    background-color: #B35B80;
-    color: #FFFFFF;
-    outline: none;
-}
-
-#search::placeholder {
-    color: white;
 }
 
 .pengantar {
