@@ -33,4 +33,4 @@ Batik Verse adalah sebuah website yang dapat menampilkan jenis-jenis batik dari 
 
 7. Untuk kembali ke halaman utama dapat menekan tombol home pada navbar menu.
 
-
+8. Untuk membuka website ini sebaiknya menggunakan laptop dengan resolusi 1920 x 1080.
